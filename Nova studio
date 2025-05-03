@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Studio - Agence Digitale</title>
+  <style>
+    body { margin:0; font-family:Arial,sans-serif; background:#000; color:#fff; line-height:1.6; }
+    header { text-align:center; padding:80px 20px; background:#111; }
+    h1 { font-size:48px; letter-spacing:2px; }
+    p.lead { font-size:18px; max-width:700px; margin:auto; color:#aaa; }
+    .btn { display:inline-block; background:#fff; color:#000; padding:10px 25px; margin-top:20px; text-decoration:none; font-weight:bold; border-radius:5px; }
+    section { padding:60px 20px; max-width:1000px; margin:auto; }
+    h2 { font-size:28px; text-align:center; margin-bottom:40px; border-bottom:2px solid #fff; display:inline-block; padding-bottom:10px; }
+    .grid { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+    .card { background:#111; border:1px solid #333; padding:20px; border-radius:10px; width:300px; }
+    footer { text-align:center; padding:40px 20px; background:#111; color:#888; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Nova Studio</h1>
+  <p class="lead">Agence digitale spécialisée en création de sites web, montage vidéo, gestion réseaux sociaux et développement d'applications. Qualité, rapidité, prix imbattables.</p>
+  <a href="#contact" class="btn">Demander un devis</a>
+</header>
+
+<section>
+  <h2>Nos Services</h2>
+  <div class="grid">
+    <div class="card"><h3>Sites Web</h3><p>Sites modernes et optimisés pour tous les appareils.</p></div>
+    <div class="card"><h3>Montage Vidéo</h3><p>Vidéos TikTok, Reels, YouTube livrées en 48h.</p></div>
+    <div class="card"><h3>Réseaux Sociaux</h3><p>Création de visuels et gestion complète de vos comptes.</p></div>
+    <div class="card"><h3>Applications</h3><p>Développement d’applications web & mobiles simples et efficaces.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Offres & Tarifs</h2>
+  <div class="grid">
+    <div class="card"><h3>Starter - 89€</h3><p>Site 1 page + 3 visuels + 1 vidéo. Livraison rapide.</p></div>
+    <div class="card"><h3>Business - 197€</h3><p>Site 3 pages + app simple + 6 visuels + 2 vidéos.</p></div>
+    <div class="card"><h3>Premium - 397€</h3><p>Site complet + stratégie réseaux + vidéos + app avancée.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p style="text-align:center;">Tu veux booster ton business ? Écris-nous : <br><strong>contact@novastudio.com</strong></p>
+  <div style="text-align:center;">
+    <a href="mailto:contact@novastudio.com" class="btn">Contactez-nous</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Nova Studio – Agence Digitale Hybride
+</footer>
+
+</body>
+</html>
